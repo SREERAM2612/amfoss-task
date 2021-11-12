@@ -1,0 +1,8 @@
+d=int(input())
+for x in range(d):
+    p=int(input())
+    c=[]
+    for i in range(p):
+        if i % 3 == 0 or i % 5 == 0:
+            c.append(i)
+    print(sum(c))
