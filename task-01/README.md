@@ -1,0 +1,1 @@
+# Star all amfoss repositories
