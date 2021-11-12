@@ -1,0 +1,21 @@
+T=int(input())
+for i in range(T):
+    terms = int(input())
+    liSt=[]
+    t1, t2 = 1, 2
+    count = 0
+    if terms == 1:
+       print(t1)
+    else:
+       while t1 < terms:
+           temp = t1 + t2
+           t1 = t2
+           t2 = temp
+           count += 1
+           if t1%2==0:
+               liSt.append(t1)
+    if liSt[-1]>=terms:
+        liSt.remove(liSt[-1])
+        print(sum(liSt))
+    else:
+        print(sum(liSt))
