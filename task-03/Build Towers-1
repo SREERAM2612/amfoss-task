@@ -1,0 +1,9 @@
+N= int(input())
+err={}
+if N>=1 and N<=1000:
+    arr=list(map(int,input().split()[:N]))
+    for i in arr:
+        err[i]=arr.count(i)
+        a=err.values()
+        maxi=max(a)
+    print(maxi,len(err),sep=" ")
