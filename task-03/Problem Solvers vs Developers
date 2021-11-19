@@ -1,0 +1,25 @@
+n,m=map(int,input().split())
+p1=list(map(int,input().split()[:n]))
+p2=list(map(int,input().split()[:m]))
+s=min(len(p1),len(p2))
+def ronny(p1,p2,s):
+    w=[]
+    j=[]
+    z=0
+    for i in range(s):
+        t=max(p1)
+        p1.remove(t)
+        e=sorted(x for x in p2 if x > t)
+        w.append(t)
+        if len(e)!=0:
+            f=min(e)
+            p2.remove(f)
+            j.append(f)
+            z=z+1
+        else:
+            print("NO")
+            break
+    if z==s:
+        print("YES")
+        print(sum(j))
+ronny(p1,p2,s)
