@@ -1,0 +1,3 @@
+# Begin your journey with Linux and Git
+
+i was able to do all the query within 2 days but sending it to git caused a lot of problems.At first mozilla wouldnt run at all in my virtual box and then later i understood that the RAM i alloted to the virtual box was too less.So i increased to 3gb but it made my laptop a bit slow as it was only a 4 gb laptop and it was already quite slow.After all that i did another mistake,i by mistkenly cloned the repo on my linux and then i send that.S o i tried to remove it but couldnt do so.So i made another repo and then i did it properly this time.I was soo relieved at that moment XD.
